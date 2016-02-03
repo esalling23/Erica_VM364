@@ -18,7 +18,7 @@
 		- Placing a species on a square
 			- place mangrove -3
 			- place algae -1
-		- Adding nutrients to soil
+		- Adding nutrients (fertilizer) to soil
 			- add reed detris -1
 	- "TAKE" actions take from the habitat and include: 
 		- Taking a sample of any species
