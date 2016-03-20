@@ -18,7 +18,7 @@ Everything was based on the  fruits, and which fruit "triggered" it's correspond
 
 To change the pace of the game, the dice were removed and replaced by single-space movement and a turn-based system instead of everyone moving at the same time. We also got a new board to test out our new changes. 
 
-![Take1](Take2.jpg)
+![Take1](Take2.JPG)
 
 
 
