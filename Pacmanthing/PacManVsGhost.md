@@ -2,6 +2,8 @@
 ###Itterative Design Process
 #####Designed by Savannah, Sean Cardwell, Paul MacCarty, and Erica Salling
 
+
+
 ######First Attempts
 Our task was simple: find a way to "hack" the classic game, PacMan. To start this process, we first had to create the environment of PacMan as a paper-prototype. Taking the classic checkers board, we used tape to fashion a left-right symetrical maze; we used four colored paper-clips for ghosts, and a red thing for PacMan. 
 
@@ -23,6 +25,8 @@ As well as special powers that each ghost had:
 
 Everything was based on the  fruits, and which fruit "triggered" it's corresponding colored ghost to start eating the remaining fruit. Since the fruits were PacMan's goal, he would obviously try to stop the ghost before all fruits are eaten, and once caught any eaten fruits would be replaced where they were. This was a fun idea, but got difficult once there were five hands moving around the board, especially since the movement was controlled by dice. 
 
+
+
 ######Second Itteration
 
 To change the pace of the game, the dice were removed and replaced by single-space movement and a turn-based system instead of everyone moving at the same time. We also got a new board to test out our new changes. 
@@ -32,6 +36,8 @@ To change the pace of the game, the dice were removed and replaced by single-spa
 At this point, our struggle was with the fact that this version of the game, though easier to move without die, simply was not fun. Even without the five hands moving around on the board, the game was complicated with each ghost's motives and powers, and started to become repetative regardless of how we tried to differentiate each ghost. 
 
 There didn't seem to be anything within the game setup we had built, that, once changed, would alter how the game actually played. It would still be repetative, with too much AI and not enough player interaction. 
+
+
 
 ######Third Itteration
 
