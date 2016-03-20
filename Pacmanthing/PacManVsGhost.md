@@ -1,8 +1,8 @@
 #PacMan vs Ghost
 ###Itterative Design Process
-###Designed by Savannah, Sean Cardwell, Paul MacCarty, and Erica Salling
+#####Designed by Savannah, Sean Cardwell, Paul MacCarty, and Erica Salling
 
-#####First Attempts
+######First Attempts
 Our task was simple: find a way to "hack" the classic game, PacMan. To start this process, we first had to create the environment of PacMan as a paper-prototype. Taking the classic checkers board, we used tape to fashion a left-right symetrical maze; we used four colored paper-clips for ghosts, and a red thing for PacMan. 
 
 ![Take1](Take1.JPG)
@@ -27,7 +27,8 @@ To change the pace of the game, the dice were removed and replaced by single-spa
 
 ![Take1](Take2.JPG)
 
+At this point, our struggle was with the fact that this version of the game, though easier to move without die, simply was not fun. Even without the five hands moving around on the board, the game was complicated with each ghost's motives and powers, and started to become repetative regardless of how we tried to differentiate each ghost. 
 
+There didn't seem to be anything within the game setup we had built, that, once changed, would alter how the game actually played. It would still be repetative, with too much AI and not enough player interaction. 
 
-
-
+So, it came time for a change. In a last-minute decision, we ditched four ghosts for one, and made the game a two-player PacMan vs. Ghost interactive experience. Players either chose 
