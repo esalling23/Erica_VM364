@@ -49,11 +49,15 @@ The other big change about this iteration, was to change the powers that the Gho
 
 The first thing that changed about this iteration after playing was the speed of the players, since immediately it was too easy for Ghost to win. PacMan's movement was increased, from two to three, so with the fruit's speed boost, PacMan would move six. 
 
-
-######Final Thoughts
-
 During playtests, we came to the conclusion that four boards corresponding to each of the four ghosts with four different pathways was simply too many and the boards, collectively, too flawed. Although the original PacMan has four ghosts, since our modifications of it makes it multiplayer / 1v1, we decided that getting rid of all but one of the boards made the most sense. 
 
 We got rid of two of the boards that allowed the ghosts to teleport to the other side of the board with the general consensus that each gave the ghosts too much of an advantage over PacMan to receive the fruits and run from the PacMan player. With two boards left, we playtested with them both, and, with some pointers from our playtesters, decided to combine them both to give both PacMan and the ghosts an equal advantage around the fruits.
 
 ![2boards](2boards.jpg)
+
+
+Our final board ended up looking like this:
+
+![Digital_Board_04](Digital_Board_04.png)
+
+We also added four final fruits to spawn randomly with the roll of a four-sided die after PacMan eats a fruit to make sure that PacMan doesn’t camp around one of the corners.
