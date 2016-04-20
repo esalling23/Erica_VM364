@@ -14,7 +14,7 @@ The way one writes a coroutine includes making a function with the class IEnumer
 
 A coroutine must be called only when the coroutine is null, which is declared at the end of a coroutine to end it. If developers want the coroutine to wait extra frames, they can use `yield return new WaitForEndOfFrame();` or 'yield return new WaitForSeconds(.1f);' to wait a specific number of seconds. In my particular case, I only needed the coroutine to work as it normally functions, so I stuck with using `yield return null` at the end of mine, which I named Speed. 
 
-![unity manual coroutines again](unitymanuals.png)
+![unity manual coroutines again](unitymanual2.png)
 
 In order to call my coroutine, I needed another function that would check if it was null, and then assign a coroutine variable to my IEnumerator class function Speed. I did not want to put my IEnumerator in Awake or Start, as it was in the Unity Manual, since this function would be called when the player clicks an action button. Instead, I opted to create a function on my TimeControl script that would call this IEnumerator. I was not sure at first if coroutines were able to take parameters such as floats, but discovered that they used parameters just like regular functions. In my researching, I also stumbled upon a way to pass multiple parameters into my IEnumerator function if I wanted or needed to. 
 
@@ -30,6 +30,6 @@ Turns out, the only thing wrong was this little line of code below, which compar
 
 After showing my code to Jay Vachon, junior developer at The Engagment Lab, I discovered that this was poor practice:
 
-![jayHELp](jayhelps.png)
+![jayHELp](jayhelp.png)
 
 Although this has nothing to do with coroutines themselve, it was a vital learning point for me that enabled me to now have a flawless, time fast-forwarding coroutine. 
