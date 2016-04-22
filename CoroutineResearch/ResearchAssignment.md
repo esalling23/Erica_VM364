@@ -12,7 +12,7 @@ When a player chooses an action, a function is called to increase the speed of t
 
 The way one writes a coroutine includes making a function with the class IEnumerator that will contain all of the code to be executed by the coroutine. This function will execute all of the contained code, and then return null.
 
-A coroutine must be called only when the coroutine is null, which is declared at the end of a coroutine to end it. If developers want the coroutine to wait extra frames, they can use `yield return new WaitForEndOfFrame();` or 'yield return new WaitForSeconds(.1f);' to wait a specific number of seconds. In my particular case, I only needed the coroutine to work as it normally functions, so I stuck with using `yield return null` at the end of mine, which I named Speed. 
+A coroutine must be called only when the coroutine is null, which is declared at the end of a coroutine to end it. If developers want the coroutine to wait extra frames, they can use `yield return new WaitForEndOfFrame();` or `yield return new WaitForSeconds(.1f);` to wait a specific number of seconds. In my particular case, I only needed the coroutine to work as it normally functions, so I stuck with using `yield return null` at the end of mine, which I named Speed. 
 
 ![unity manual coroutines again](unitymanual2.png)
 
